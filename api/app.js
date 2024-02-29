@@ -1,6 +1,6 @@
 var express = require("express");
 var path = require("path");
-var indexRouter = require("./routes/index");
+var indexRouter = require("./controller/index");
 require('dotenv').config();
 const ErrorHandler = require("./middlewares/errors/ErrorHandle");
 
